@@ -1,0 +1,14 @@
+name: assignment6
+title: assignment6
+username:
+account: yl1206
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4476935
+bundleId: 4910019
+url: https://yl1206.shinyapps.io/assignment6/
+when: 1628653147.2444
+lastSyncTime: 1628653147.24443
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: assignment6.py|plotly.rtf|PlotlyKeysPass.txt|shiny.rtf|timesData.csv|plots

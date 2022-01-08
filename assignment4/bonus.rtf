@@ -1,0 +1,30 @@
+{\rtf1\ansi\ansicpg936\cocoartf2577
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 #!/usr/bin/env python3\
+# -*- coding: utf-8 -*-\
+\
+import networkx as nx\
+\
+# Create a networkx graph object\
+my_graph = nx.Graph() \
+\
+# Add edges to to the graph object\
+# Each tuple represents an edge between two nodes\
+my_graph.add_edges_from([\
+                        (2,3), \
+                        (1,3), \
+                        (3,4), \
+                        (1,5), \
+                        (3,5),\
+                        (4,2),\
+                        (2,3),\
+                        (3,0)])\
+\
+# Draw the resulting graph\
+nx.draw(my_graph, with_labels=True, font_weight='bold',title="small example of networkX")\
+}
